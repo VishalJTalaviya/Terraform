@@ -10,7 +10,7 @@ terraform {
     
     bucket = "vishal-state-bucket"
     key    = "terraform.tfstate"
-    region = "us-west-2"
+    region = "us-east-2"
     dynamodb_table = "vishal-state-table"
   }
 }
