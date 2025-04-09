@@ -12,3 +12,8 @@ variable "ec2_ami_id" {
   default = "ami-04f167a56786e4b09"
   type = string
 }
+
+variable "env" {
+    default = "prd"
+    type = string
+}
