@@ -1,7 +1,7 @@
 resource "aws_s3_bucket" "remote_s3" {
-  bucket = "state-bucket"
+  bucket = "vishal-state-bucket"
 
   tags = {
-    Name        = "state-bucket"
+    Name        = "vishal-state-bucket"
   }
 }
